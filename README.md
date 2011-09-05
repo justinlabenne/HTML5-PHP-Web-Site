@@ -20,12 +20,12 @@
 ## Adjustments and Descriptions:
 #### build (directory)
 * Generic build script for Windows (build.cmd)
-** Removes any previous incarnations of the publish directory
-** Generates a filename based on date/time %FILENAME%
-** Copies files to a temp dir, then to a local publish dir (XCOPY limitation)
-** Optimizes jpg/png images using optipng and jpegtran
-** Minfies the style.css file and creates a new filename style.%FILENAME%.css
-** Updates include\header.php file with a reference to the minified stylesheet
+* Removes any previous incarnations of the publish directory
+* Generates a filename based on date/time %FILENAME%
+* Copies files to a temp dir, then to a local publish dir (XCOPY limitation)
+* Optimizes jpg/png images using optipng and jpegtran
+* Minfies the style.css file and creates a new filename style.%FILENAME%.css
+* Updates include\header.php file with a reference to the minified stylesheet
 
 #### css (directory)
 * style.css: normalize.css, 960 grid, h5bp styles.
