@@ -19,11 +19,11 @@ body, button, input, select, textarea { font-family: sans-serif; color: #222 }
 a { text-decoration: none; color: #00e }
 a:visited { color: #551a8b }
 a:focus { outline: thin dotted }
-a:hover, a:active { color: #00a; outline: 0 }
+a:hover, a:active { color: #00a }
 
 /* Typography
 -------------------------------------------- */
-h1 { }
+h1 { font-size: 2em }
 h2 { }
 h3 { }
 h4 { }
@@ -75,7 +75,9 @@ button::-moz-focus-inner,input::-moz-focus-inner { border: 0; padding: 0 }
 textarea { overflow: auto; vertical-align: top }
 .placeholder-text,input:-moz-placeholder,textarea:-moz-placeholder { color: #bbb; font-style: italic }
 input::-webkit-input-placeholder,textarea::-webkit-input-placeholder { color: #bbb; font-style: italic }
-
+/* Colors for form validity */
+input:valid, textarea:valid {  }
+input:invalid, textarea:invalid { background-color: #f0dddd }
 
 /* Tables
 -------------------------------------------- */
