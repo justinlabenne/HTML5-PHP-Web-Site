@@ -39,7 +39,7 @@
 * header.php: meta tags to fill out site wide, plus some php vars allowing for per page adjustment. The starting markup of the site.
 
 #### js (directory)
-* jquery-1.6.2.min.js: latest minified version.
+* jquery-1.7.1.min.js: latest minified version.
 * modernizr-2.0.6.min.js: latest minified version using a custom build.
 
 #### .htaccess: 
@@ -75,6 +75,10 @@
 
 
 ## Changelog:
+### v0.2 - 11/29/2011
+* Updated JQuery version to 1.7.1
+* Tweaks and things
+
 ### v0.1 - 09/04/2011 - Initial Release
 
 
